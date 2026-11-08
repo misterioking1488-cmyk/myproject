@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(23, 5, 51);
+}
+.name{
+    color: white;
+    display: flex;
+    justify-content: left;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.5);
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+.head{
+    display: flex;
+    font-size: 20px;
+    gap: 1500px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.aituar{
+    display: block;
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.product{
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    margin-left: 0;
+    margin-bottom: 100px;
+}
+.submit input{
+    display: inline-block;
+    border: 10px solid rgb(98, 0, 255);
+    background-color: rgb(98, 0, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    transform: translateY(-60px);
+    padding: 5px;
+}
+.project{
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    color: aliceblue;
+    transform: translateY(-40px);
+}
+.non{
+    margin-left: 40px;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.p1{
+    border: 10px solid rgb(78, 46, 130);
+    background-color: rgb(78, 46, 130);
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 0 15px 15px
+}
+.p2{
+    border: 10px solid rgb(78, 46, 130);
+    background-color: rgb(78, 46, 130);
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 0 15px 15px
+}
+.p3{
+    border: 10px solid rgb(78, 46, 130);
+    background-color: rgb(78, 46, 130);
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 0 15px 15px;
+}
+.pp1 , .pp2 , .pp3{
+    color: rgba(255, 255, 255, 0.5);
+}
+.line{
+     height: 1px;
+     background-color:rgba(255, 255, 255, 0.5) ;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+}
